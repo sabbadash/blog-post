@@ -10,6 +10,7 @@
     <title>Typography</title>
 </head>
 <body>
+    
     <header class="hero">
         <h1>A Blog Post</h1>
         <p>Typography is one of the most important elements of front end design and development! In this exercise, we'll play around with some of the common CSS properties to manage and style our fonts by making a nice blog post-like web page.</p>
@@ -78,5 +79,14 @@
             <li><a href="#info">More Info</a></li>
         </ul>
     </footer>
+    <div class="window">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tempore quas eos, laudantium voluptas ullam laboriosam. Cum ut quo possimus vel nobis numquam eveniet ad harum, ex cupiditate vero adipisci.</p>
+        <button class="close">X</button>
+    </div>
+    <script>
+        document.querySelector('.close').addEventListener('click', function(e) {
+            document.querySelector('.window').classList.add('hidden');
+        });
+    </script>
 </body>
 </html>

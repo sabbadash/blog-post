@@ -147,3 +147,34 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.window {
+    background-color: #863ae8;
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window > p {
+    width: 50%;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+    background-color: #863ae8;
+    color: white;
+    border: 2px dashed black;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
